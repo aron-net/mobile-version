@@ -1,0 +1,216 @@
+/* Global Style */
+* {
+  margin: 0;
+  width: 99.9%;
+  background-image: url('./image/Overlay.svg');
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
+/* Header and item navigation */
+.top-navigation {
+  width: 95%;
+  height: 15vh;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Log */
+.log {
+  justify-content: flex-start;
+  margin-left: 18px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Item navigation */
+.item-navigation {
+  text-align: right;
+}
+
+/* Image of icon bar */
+.icon-bar {
+  width: 25%;
+}
+
+/* Section container */
+.container-section {
+  display: flex;
+  flex: row;
+  margin-bottom: 12%;
+}
+
+/* Image of circle */
+.image-circle {
+  width: 8%;
+  height: 15vh;
+}
+
+/* header container */
+.container-header {
+  width: 98%;
+  align-items: center;
+}
+
+/* Section Header */
+.header-text {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 72px;
+  color: #9391ff;
+  margin-top: 2%;
+  text-align: center;
+}
+
+/* Support text of header */
+.support-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 64px;
+  text-align: center;
+}
+
+/* Paragraph container */
+.text-container {
+  margin-left: -4%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #b3bac5;
+  width: 99%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+/* container thematic(hr) element */
+.thematic {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 87%;
+  height: 2vh;
+  margin-bottom: 5%;
+}
+
+/* Element hr */
+hr {
+  border: 1px solid #646369;
+}
+
+/* Article container */
+.container-article {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Image circle article */
+.image-circle-2 {
+  justify-content: flex-end;
+  width: 20%;
+  height: 15vh;
+}
+
+/* Container for language, frame-work, skill */
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2;
+  margin-left: 2%;
+  justify-content: left;
+  margin-top: 2%;
+}
+
+/* List element */
+li {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+/* Header element for language. frame-work, skill */
+h3 {
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #9390ff;
+  margin-bottom: 15%;
+}
+
+/* Language list container */
+.language-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 25vh;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+/* Frame-work list container */
+.frame-works-container {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  height: 30vh;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+/* Skill list container */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  height: 30vh;
+  justify-content: space-between;
+  margin-left: -1%;
+  margin-bottom: 10%;
+  font-family: 12px;
+}
+
+/* Social media links container */
+.account-links {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: -5%;
+}
+
+/* Social media link */
+.link {
+  display: flex;
+  flex-direction: row;
+  width: 43%;
+  border: none;
+}
+
+/* work button */
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 98;
+  width: 40%;
+  height: 5vh;
+  margin-left: 25%;
+  margin-top: 8%;
+  border: none;
+}
+
+.arrow-down {
+  width: 25%;
+}
+
+.work {
+  font-weight: bold;
+  font-size: 22px;
+  color: #a2a3ae;
+}
