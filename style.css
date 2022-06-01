@@ -1,8 +1,5 @@
-/* Global Style */
 * {
   margin: 0;
-  width: 99.9%;
-  background-image: url('./image/Overlay.svg');
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 15px;
@@ -10,138 +7,113 @@
   color: #fff;
 }
 
+.main {
+  margin-top: -2%;
+  width: 99.7%;
+  height: 100%;
+  background-image: url('./image/top-circles.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #191765;
+}
+
 /* Header and item navigation */
 .top-navigation {
-  width: 95%;
-  height: 15vh;
+  width: 98%;
+  height: 8vh;
   margin-top: 1%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
 /* Log */
 .log {
+  margin-top: 5%;
   justify-content: flex-start;
   margin-left: 18px;
   text-decoration: none;
   font-size: 18px;
-  font-weight: bold;
-  text-align: left;
+  font-weight: 500;
+  line-height: 16px;
 }
 
 /* Item navigation */
 .item-navigation {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 6%;
+  width: 30%;
+  height: 7vh;
+  margin-top: 2%;
 }
 
 /* Image of icon bar */
 .icon-bar {
-  width: 25%;
+  width: 75%;
+  margin-top: 3%;
+  margin-right: 15%;
 }
 
 /* Section container */
-.container-section {
-  display: flex;
-  flex: row;
-  margin-bottom: 12%;
-}
-
-/* Image of circle */
-.image-circle {
-  width: 8%;
-  height: 15vh;
-}
-
-/* header container */
 .container-header {
-  width: 98%;
-  align-items: center;
+  margin-top: 4%;
+  text-align: center;
 }
 
 /* Section Header */
 .header-text {
   font-weight: 700;
-  font-size: 38px;
-  line-height: 72px;
+  font-size: 34px;
+  line-height: 60px;
   color: #9391ff;
-  margin-top: 2%;
   text-align: center;
+  padding-left: 10%;
+  margin: 2%;
 }
 
 /* Support text of header */
 .support-text {
   font-weight: 500;
-  font-size: 28px;
-  line-height: 64px;
+  font-size: 25px;
+  line-height: 44px;
   text-align: center;
+  margin: 2%;
 }
 
 /* Paragraph container */
 .text-container {
-  margin-left: -4%;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 28px;
   color: #b3bac5;
-  width: 99%;
+  width: 94%;
   text-align: center;
-  margin-bottom: 2%;
+  margin-top: 10%;
+  padding: 3%;
 }
 
 /* container thematic(hr) element */
 .thematic {
-  margin-top: 5%;
-  margin-left: 5%;
-  width: 87%;
-  height: 2vh;
-  margin-bottom: 5%;
+  margin-top: -1%;
+  height: 4vh;
+  justify-content: center;
 }
 
 /* Element hr */
 hr {
+  margin-top: 2%;
+  width: 90%;
+  margin-left: 5%;
   border: 1px solid #646369;
 }
 
 /* Article container */
-.container-article {
-  display: flex;
-  flex-direction: row;
-}
-
-/* Image circle article */
-.image-circle-2 {
-  justify-content: flex-end;
-  width: 20%;
-  height: 15vh;
-}
-
-/* Container for language, frame-work, skill */
 .experience-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2;
-  margin-left: 2%;
-  justify-content: left;
-  margin-top: 2%;
-}
-
-/* List element */
-li {
-  list-style-type: none;
-  font-size: 13px;
-  line-height: 14px;
-}
-
-/* Header element for language. frame-work, skill */
-h3 {
-  font-weight: lighter;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #9390ff;
-  margin-bottom: 15%;
 }
 
 /* Language list container */
@@ -171,18 +143,47 @@ h3 {
   width: 28%;
   height: 30vh;
   justify-content: space-between;
-  margin-left: -1%;
   margin-bottom: 10%;
   font-family: 12px;
+}
+
+/* List element */
+li {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* Header element for language. frame-work, skill */
+h5 {
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #9390ff;
+  margin-bottom: 15%;
+}
+
+/* work button */
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  height: 5vh;
+  margin-left: 25%;
+  margin-top: 8%;
+  border: none;
 }
 
 /* Social media links container */
 .account-links {
   display: flex;
-  width: 90%;
-  justify-content: center;
-  margin-top: 5%;
-  margin-left: -5%;
+  width: 75%;
+  justify-content: space-between;
+  padding: 4%;
+  margin: 5%;
 }
 
 /* Social media link */
@@ -193,24 +194,95 @@ h3 {
   border: none;
 }
 
-/* work button */
-.button {
-  display: flex;
-  flex-direction: row;
-  gap: 98;
-  width: 40%;
-  height: 5vh;
-  margin-left: 25%;
-  margin-top: 8%;
-  border: none;
-}
-
+/* arrow button */
 .arrow-down {
-  width: 25%;
+  width: 20%;
+  margin-bottom: 3%;
 }
 
+/* work element h2 */
 .work {
   font-weight: bold;
   font-size: 22px;
   color: #a2a3ae;
+  margin-bottom: 20%;
+}
+
+/* Image place holder */
+.image-placeholder {
+  width: 80%;
+  padding: 2%;
+  margin: 8%;
+}
+
+/* container for recent work */
+.image-background {
+  width: 98%;
+}
+
+.my-work {
+  font-size: 35px;
+  text-align: left;
+  font-weight: 500;
+  line-height: 52px;
+  color: #9490ff;
+  margin-top: 2%;
+  padding: 5%;
+}
+
+.thematic-1 {
+  padding: 3%;
+  width: 95%;
+}
+
+/* recent work */
+.recent-work {
+  background-image: url('./image/second-background.svg');
+  background-repeat: no-repeat;
+  background-color: #191765;
+  width: 99.9%;
+  justify-content: center;
+  margin-top: -2%;
+}
+
+/* Multi-post container */
+.multi-post {
+  align-items: center;
+}
+
+/* header for multi post */
+.multi-post-header {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 44px;
+  opacity: 0.8;
+  margin: 10%;
+}
+
+/* Paragraph for multi post */
+.multi-post-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #dcdce8;
+  margin: 10%;
+  padding: 2%;
+}
+
+/* Programing Language */
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 10%;
+  padding: 3%;
+}
+
+/* see Project button */
+.see-project {
+  background-color: #7d73fc;
+  padding: 12px;
+  margin: 10%;
+  font-weight: 500;
+  line-height: 24px;
 }
