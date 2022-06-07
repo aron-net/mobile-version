@@ -290,4 +290,29 @@ h5 {
 /* for contact form */
 form {
   background-color: #191765;
+  width: 99.9%;
+  margin: 0;
+  text-align: center;
+}
+
+.form-header {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #9390ff;
+  text-align: center;
+}
+
+
+/* footer */
+footer {
+  background-color: #191765;
+  width: 99.9%;
+  margin: 0;
+  border: 1px solid green;
+}
+
+.hr-footer {
+  margin-top: 2%;
+  width: 100%;
 }
