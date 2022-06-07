@@ -286,3 +286,8 @@ h5 {
   font-weight: 500;
   line-height: 24px;
 }
+
+/* for contact form */
+form {
+  background-color: #191765;
+}
