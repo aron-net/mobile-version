@@ -295,7 +295,16 @@ form {
   text-align: center;
 }
 
-.form-header {
+.form-paragraph {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 9%;
+}
+
+.form-header {  
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -303,6 +312,34 @@ form {
   text-align: center;
 }
 
+.input-form {
+  padding: 5%;
+  align-items: center;
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 3%;
+  margin: 2%;
+  width: 85%;
+}
+
+input[type=text] {
+  color: #81818C;
+}
+
+input[type=email] {
+  color: #191765;
+}
+
+.email-form::placeholder {
+  color: #191765;
+  font-weight: 400;
+  opacity: 1;
+}
 
 /* footer */
 footer {
@@ -316,3 +353,5 @@ footer {
   margin-top: 2%;
   width: 100%;
 }
+
+
