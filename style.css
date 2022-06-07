@@ -368,7 +368,31 @@ footer {
   width: 99.9%;
   margin: 0;
   border: 3px solid #3A3837;
-  ;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-account-links {
+  width: 80%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.link {
+  width: 70%;
+  padding: 15%;
+}
+
+.footer-email {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color:  #EBEBFF;
+  width: auto;  
 }
 
 .hr-footer {
