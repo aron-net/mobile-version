@@ -301,7 +301,7 @@ form {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  padding: 9%;
+  padding: 10%;
 }
 
 .form-header {  
@@ -337,16 +337,38 @@ input[type=email] {
 
 .email-form::placeholder {
   color: #191765;
-  font-weight: 400;
-  opacity: 1;
+  opacity: 0.7;
 }
 
+
+textarea {
+  width: 87%;
+  margin: 2%;
+  padding: 4%;
+  height: 15vh;
+}
+
+.see-project-form {
+  background-color: #7d73fc;
+  padding: 2%;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.see-project-form:hover {
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  ;
+}
 /* footer */
 footer {
   background-color: #191765;
   width: 99.9%;
   margin: 0;
-  border: 1px solid green;
+  border: 3px solid #3A3837;
+  ;
 }
 
 .hr-footer {
