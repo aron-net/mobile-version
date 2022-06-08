@@ -286,3 +286,141 @@ h5 {
   font-weight: 500;
   line-height: 24px;
 }
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #191765;
+  width: 99.9%;
+  margin: 0;
+}
+
+/* for contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 99.9%;
+}
+
+.form-paragraph {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5ff;
+  padding: 5%;
+  width: 88.5%;
+}
+
+.form-header {
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #9390ff;
+  text-align: center;
+}
+
+.input-form {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 94%;
+}
+
+input[type=text] {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 4%;
+  margin: 1%;
+  width: 90%;
+  color: #81818c;
+}
+
+input[type=email] {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 5%;
+  padding: 3%;
+  width: 90%;
+  color: #191765;
+}
+
+.email-form::placeholder {
+  color: #191765;
+  opacity: 1;
+}
+
+textarea {
+  width: 90%;
+  margin-top: 7%;
+  padding: 4%;
+  height: 20vh;
+  color: #81818c;
+}
+
+.see-project-form {
+  background-color: #7d73fc;
+  padding: 2%;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 25%;
+}
+
+.see-project-form:hover {
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.footer-line {
+  border: 1px solid #3a3837;
+  width: 100%;
+  margin-left: 0;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.footer-account-links {
+  width: 80%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.link-footer {
+  padding: 10%;
+}
+
+.footer-email {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+}
+
+.footer-hr {
+  margin-top: 5%;
+  width: 30%;
+  background-color: #0d151e;
+  margin-bottom: 0%;
+  border: 2px solid #0d151e;
+}
