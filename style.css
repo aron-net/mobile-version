@@ -295,7 +295,7 @@ footer {
   text-align: center;
   background-color: #191765;
   width: 99.9%;
-  margin: 0;  
+  margin: 0;
 }
 
 /* for contact form */
@@ -307,11 +307,11 @@ form {
 }
 
 .form-paragraph {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F5F5FF;
+  color: #f5f5ff;
   padding: 5%;
   width: 88.5%;
 }
@@ -334,18 +334,18 @@ form {
 }
 
 input[type=text] {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   padding: 4%;
   margin: 1%;
   width: 90%;
-  color: #81818C;
+  color: #81818c;
 }
 
 input[type=email] {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -354,6 +354,7 @@ input[type=email] {
   width: 90%;
   color: #191765;
 }
+
 .email-form::placeholder {
   color: #191765;
   opacity: 1;
@@ -364,7 +365,7 @@ textarea {
   margin-top: 7%;
   padding: 4%;
   height: 20vh;
-  color: #81818C;
+  color: #81818c;
 }
 
 .see-project-form {
@@ -381,7 +382,6 @@ textarea {
 .see-project-form:hover {
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
-
 
 .footer-line {
   border: 1px solid #3a3837;
