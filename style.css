@@ -790,4 +790,37 @@ button:active {
   .footer-hr {
     display: none;
   }
+
+  /* Animation for .log */
+  
+  @keyframes rainbow {
+    from {
+      color: white;
+    }
+
+    10% {
+      color: indigo;
+    }
+
+    25% {
+      color: greenyellow;
+    }
+
+    50% {
+      color: yellow;
+    }
+
+    75% {
+      color: orange;
+    }
+
+    100% {
+      color: red;
+    }
+  }
+
+  .log {
+    animation: rainbow 6s;
+  }
+
 }
