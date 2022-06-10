@@ -68,7 +68,7 @@
   line-height: 72px;
   letter-spacing: 0.37px;
   color: #7d73fc;
-  padding: 15% 2%;
+  padding: 15% 1%;
 }
 
 .support-text {
@@ -85,8 +85,8 @@
   line-height: 28px;
   text-align: center;
   color: #c8c8d4;
-  width: 87%;
-  padding: 10% 0%;
+  width: 95%;
+  padding: 15% 2%;
 }
 
 /* container thematic(hr) element */
@@ -395,8 +395,16 @@ textarea {
   width: 25%;
 }
 
-.see-project-form:hover {
+button:hover {
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+button:focus {
+  background: #7d73fc;
+}
+
+button:active {
+  background-color: #5e42d7;
 }
 
 .footer-line {
@@ -509,9 +517,8 @@ textarea {
     line-height: 32px;
     color: #b3bac5;
     text-align: center;
-    width: 37%;
-    padding: 0%;
-    margin-right: 10%;
+    width: 42%;
+    padding: 0% 5%;
   }
 
   .thematic {
