@@ -39,7 +39,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-[See my landing page here!](https://aron-helu.github.io/landing-page/
+[See my Portfolio page here!](https://aron-helu.github.io/mobile-version//
 )
 Copyright &copy; by Aaron-A<sup>3</sup>
 
