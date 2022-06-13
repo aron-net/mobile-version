@@ -455,6 +455,7 @@ button:active {
     line-height: 20px;
     margin: 0%;
     padding: 2% 12%;
+    animation: rainbow 6s;
   }
 
   /* navigation item */
@@ -792,7 +793,7 @@ button:active {
   }
 
   /* Animation for .log */
-  
+
   @keyframes rainbow {
     from {
       color: white;
@@ -818,9 +819,4 @@ button:active {
       color: red;
     }
   }
-
-  .log {
-    animation: rainbow 6s;
-  }
-
 }
