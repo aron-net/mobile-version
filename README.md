@@ -39,6 +39,10 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+[See my landing page here!](https://aron-helu.github.io/landing-page/
+)
+Copyright &copy; by Aaron-A<sup>3</sup>
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
@@ -47,7 +51,7 @@ Give a ⭐️ if you like this project!
 
 - Miroverse Inc.
 
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
