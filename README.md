@@ -24,6 +24,10 @@ Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in brows
 - CSS (Cascading Style Sheets)
 
 
+## Live Demo
+
+[Live  Demo Link](https://aron-helu.github.io/mobile-version//)
+
 ## Authors
 
 👤 **Aaron Abraham**
@@ -39,9 +43,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-[See my Portfolio page here!](https://aron-helu.github.io/mobile-version//
-)
-Copyright &copy; by Aaron-A<sup>3</sup>
+
 
 ## Show your support
 
