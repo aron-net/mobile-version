@@ -212,6 +212,7 @@
             <form action="https://formspree.io/f/xjvlzgoa" method="post">                
                 <ul class="input-form">
                     <li>
+                        <label for="name" aria-labelledby="user_name"></label>
                         <input type="text" name="user_name" id="name" minlength="2" maxlength="30" required placeholder="Text Input" class="name-form" aria-label="user-name">
                     </li>
                     <li>
@@ -219,7 +220,8 @@
                         <input type="email" name="user_email" id="email" placeholder="jeremy@gmail.com" required class="email-form" aria-label="user_name">
                     </li>
                     <li>
-                        <textarea name="user_message" id="msg" placeholder="Enter text here" required maxlength="500" aria-labelledby="user_message"></textarea>
+                        <label for="msg" aria-labelledby="user_message"></label>
+                        <textarea name="user_message" id="msg" placeholder="Enter text here" required maxlength="500" aria-label="user_message"></textarea>
                     </li>
                 </ul> 
                 <button type="submit" class="see-project-form">See project</button>
