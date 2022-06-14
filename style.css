@@ -23,6 +23,7 @@
   line-height: 16px;
   padding: 2%;
   margin-top: 2%;
+  color: #ffff;
 }
 
 /* navigation item */
@@ -798,7 +799,7 @@ button:active {
     }
 
     10% {
-      color: #6a61d7;
+      color: #8078dd;
     }
 
     25% {
