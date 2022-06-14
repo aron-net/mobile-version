@@ -23,6 +23,7 @@
   line-height: 16px;
   padding: 2%;
   margin-top: 2%;
+  color: #ffff;
 }
 
 /* navigation item */
@@ -148,9 +149,9 @@ li {
 }
 
 /* Header element for language. frame-work, skill */
-h5 {
-  font-weight: lighter;
-  font-size: 15px;
+.language-experience {
+  font-weight: 700;
+  font-size: 18px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -292,7 +293,7 @@ h5 {
 
 /* see Project button */
 .see-project {
-  background-color: #7d73fc;
+  background-color: #6a61d7;
   padding: 5%;
   font-weight: 500;
   line-height: 24px;
@@ -381,11 +382,11 @@ textarea {
   margin-top: 7%;
   padding: 4%;
   height: 20vh;
-  color: #81818c;
+  color: #73737e;
 }
 
 .see-project-form {
-  background-color: #7d73fc;
+  background-color: #6a61d7;
   padding: 2%;
   font-weight: 500;
   font-size: 12px;
@@ -697,7 +698,6 @@ button:active {
   }
 
   .see-project {
-    background-color: #7d73fc;
     padding: 2% 1%;
     font-weight: 500;
     font-size: 15px;
@@ -769,7 +769,6 @@ button:active {
   }
 
   .see-project-form {
-    background-color: #7d73fc;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
@@ -800,7 +799,7 @@ button:active {
     }
 
     10% {
-      color: indigo;
+      color: #8078dd;
     }
 
     25% {
