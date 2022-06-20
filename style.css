@@ -533,7 +533,6 @@ button:active {
 
   .frame-navigation {
     position: relative;
-    left: -100%;
     display: flex;
     flex-direction: row;
     list-style-type: none;
