@@ -15,22 +15,27 @@
         <title>Aron Abraham Portfolio</title>
     </head>
     <body>
-
-        <!-- Header of the page with navigation bar -->
-        <header class="top-navigation">
-            <a href="#" class="log">Aron Abraham</a>
-            <nav class="item-navigation">
-                <ul class="frame-navigation">
-                    <li class="item-frame-nav"><a href="#portfolio-link">Portfolio</a></li>
-                    <li class="item-frame-nav"><a href="#about-link">About</a></li>
-                    <li class="item-frame-nav"><a href="#contact-link">Contact</a></li>
-                    <li class="item-frame-nav"><a href="#email-link" aria-label="email envelope"><i class="fa fa-envelope-o" ></i></a></li>
-                </ul>
-                <a href="#icon-bar-link"  class="icon-bar"><img src="./image/Vector-1.svg" alt="Union image bar"/></a>
-            </nav>
-        </header>
         <div class="main">
-
+            <!-- Header of the page with navigation bar -->
+            <header class="item-navigation">
+                <a href="#" class="log">Aron Abraham</a>
+                <nav class="navigation">
+                    <div class="hamburger-menu" aria-label="hamburger-menu-icon">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul data-visible="false" class="frame-navigation">
+                        <div class="close-menu">
+                            <span class="material-symbols-outlined">close</span>
+                        </div>                        
+                        <li class="item-frame-nav"><a href="#portfolio" class="nav">Portfolio</a><span class="material-symbols-outlined chevron-right">chevron_right</span></li>
+                        <li class="item-frame-nav"><a href="#about" class="nav">About</a><span class="material-symbols-outlined chevron-right chevron-right-about">chevron_right</span></li>
+                        <li class="item-frame-nav"><a href="#contact" class="nav">Contact</a><span class="material-symbols-outlined chevron-right">chevron_right</span></li>
+                        <li class="item-frame-nav"><a href="#email" class="link" aria-label="email envelope"><i class="fa fa-envelope-o"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
             <!-- Primary text headline -->
             <section class="container-header">
                 <h1 class="header-text">Aron Abraham</h1>

@@ -1,18 +1,20 @@
 * {
-  margin: 0%;
-  width: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
   font-family: 'Robot', sans-serif;
   font-style: normal;
   color: #fff;
 }
-
 /* header container */
-.top-navigation {
+.main {
   background-color: #191765;
-  display: flex;
-  justify-content: space-around;
-  margin: 0%;
-  width: 100%;
+  background-image: url('./image/top-circles.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0px 10px;
 }
 
 /* header log */
@@ -21,17 +23,15 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 16px;
-  padding: 2%;
-  margin-top: 2%;
   color: #ffff;
+  padding: 5%;
 }
 
 /* navigation item */
 .item-navigation {
   display: flex;
-  justify-content: flex-end;
-  width: 10%;
-  padding: 1.5%;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .icon-bar {
@@ -45,16 +45,7 @@
 }
 
 /* the section main */
-.main {
-  background-color: #191765;
-  background-image: url('./image/top-circles.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: auto 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 .container-header {
   display: flex;
@@ -451,11 +442,18 @@ button:active {
 }
 
 @media only screen and (min-width: 768px) {
+
+  /* the section main */
+  .main {
+    background-image: url('./image/two-circles-header.svg');
+    background-repeat: no-repeat;
+    background-position: 20px 75px ;
+  }
+
   /* header log */
   .log {
     line-height: 20px;
-    margin: 0%;
-    padding: 2% 12%;
+    padding: 1.5% 10%;
     animation: rainbow 6s;
   }
 
@@ -466,7 +464,8 @@ button:active {
   }
 
   .item-navigation {
-    width: 40%;
+    display: flex;
+    justify-content: space-between;
   }
 
   .frame-navigation {
@@ -476,6 +475,7 @@ button:active {
     font-size: 15px;
     line-height: 28px;
     gap: 20px;
+    padding: 3% 5%;
   }
 
   a {
@@ -485,14 +485,6 @@ button:active {
   .fa-envelope-o {
     font-size: 18px;
     font-weight: bold;
-  }
-
-  /* the section main */
-  .main {
-    background-image: url('./image/two-circles-header.svg');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .container-header {
