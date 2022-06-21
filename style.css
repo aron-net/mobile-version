@@ -472,19 +472,20 @@ button:active {
     background-image: url('./image/two-circles-header.svg');
     background-size: contain;
   }
+
   .top-navigation {
     gap: 35px;
     text-align: center;
   }
+
   .hamburger-menu {
     display: none;
   }
 
   .log {
     line-height: 20px;
-    padding-top: 0px;
+    padding-top: 0;
     text-align: center;
-
   }
 
   .item-navigation {
@@ -493,7 +494,6 @@ button:active {
     align-items: center;
     padding: 1%;
   }
-
 
   .frame-navigation {
     position: relative;
