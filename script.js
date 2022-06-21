@@ -4,15 +4,11 @@ const navigation = document.querySelector('.frame-navigation');
 
 const closeMenu = document.querySelector('.close-menu');
 
-const show = () => {
-    navigation.setAttribute('data-visible', true);
-};
+const show = () => { navigation.setAttribute('data-visible', true); };
 
 hamburgerMenu.addEventListener('click', show);
 
-const closeShow = () => {
-    navigation.setAttribute('data-visible', false);
-};
+const closeShow = () => { navigation.setAttribute('data-visible', false); };
 
 closeMenu.addEventListener('click', closeShow);
 
