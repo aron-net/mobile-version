@@ -43,7 +43,6 @@ body {
   background-image: url('./image/shapes-mobile-menu.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 30px;
   transform: translateX(100%);
 }
 
@@ -56,19 +55,19 @@ body {
 }
 
 .chevron-right {
-  padding-left: 90px;
+  float: right;
   color: #a8c0da;
 }
 
 .chevron-right-about {
-  padding-left: 115px;
+  float: right;
 }
 
 .item-frame-nav {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-  padding-left: 15px;
+  padding-left: 10px;
   width: 70%;
   padding-bottom: 35px;
   margin: 0 auto;
@@ -80,7 +79,8 @@ body {
 
 .close-menu {
   text-align: right;
-  padding: 10px 80px;
+  padding-right: 15%;
+  margin-top: 30px;
   cursor: pointer;
 }
 
