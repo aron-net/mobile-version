@@ -9,6 +9,16 @@ body {
   font: normal 12px/24px 'Robot', sans-serif;
 }
 
+/* header container */
+.top-navigation {
+  background-color: #191765;
+  display: flex;
+  margin: 0%;
+  width: 100%;
+  align-items: center;
+  gap: 25%;
+}
+
 /* header container style */
 .main {
   background-color: #191765;
@@ -70,7 +80,8 @@ body {
 
 .close-menu {
   text-align: right;
-  padding: 10px 90px;
+  padding: 10px 80px;
+  cursor: pointer;
 }
 
 a {
@@ -84,7 +95,7 @@ li {
 .hamburger-menu {
   display: block;
   cursor: pointer;
-  margin: 1%;
+  margin-right: 8%;
 }
 
 .bar {
@@ -99,7 +110,6 @@ li {
 
 .log {
   padding-left: 24px;
-  padding-top: 10px;
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
@@ -234,7 +244,7 @@ hr {
   background-color: #191765;
   background-image: url('./image/second-background.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
@@ -461,38 +471,37 @@ button:active {
   .main {
     background-image: url('./image/two-circles-header.svg');
     background-size: contain;
-    background-position: 20% 30%;
   }
-
+  .top-navigation {
+    gap: 35px;
+    text-align: center;
+  }
   .hamburger-menu {
     display: none;
   }
 
   .log {
     line-height: 20px;
-    padding-left: 154px;
-    padding-top: 30px;
+    padding-top: 0px;
+    text-align: center;
+
   }
 
   .item-navigation {
-    padding: 1%;
-  }
-
-  .navigation {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 1%;
-    width: 50%;
   }
+
 
   .frame-navigation {
     position: relative;
     background: none;
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
     align-items: center;
+    justify-content: baseline;
   }
 
   .nav {
