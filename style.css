@@ -786,8 +786,6 @@ button:active {
     display: none;
   }
 
-  /* Animation for .log Victo is my friend*/
-
   @keyframes rainbow {
     from {
       color: white;
