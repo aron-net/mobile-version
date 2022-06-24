@@ -31,6 +31,7 @@
 }
 
 .popup-container {
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +41,10 @@
   background-color: rgba(255, 255, 255, 0.16);
   border: 1px solid #fff;
   box-shadow: 0 48px 48px rgba(37, 47 137, 0.08);
+}
+
+.popup-container::-webkit-scrollbar {
+  display: none;
 }
 
 .ar {
@@ -202,7 +207,7 @@
 
   .popup-Desktop {
     display: block;
-    height: 43vh;
+    height: 53vh;
   }
 
   .popup-content {
