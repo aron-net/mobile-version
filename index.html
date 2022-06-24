@@ -14,6 +14,7 @@
 
     <script src="./script.js" defer></script>
     <script src="./modal.js" defer></script>
+    <script src="./form.js" defer></script>
 
     <title>Aron Abraham Portfolio</title>
 </head>
@@ -141,7 +142,7 @@
                 in developing, a feature that you need built or
                 a project that needs coding. I&#x27;d love to help with it.
             </P>
-            <form action="https://formspree.io/f/xjvlzgoa" method="post">                
+            <form action="https://formspree.io/f/xjvlzgoa" method="post" id="form-inputs">                
                 <ul class="input-form">
                     <li>
                         <input type="text" name="user_name" id="name" minlength="2" maxlength="30" required placeholder="Text Input" class="name-form" aria-label="user-name">
@@ -152,6 +153,7 @@
                     <li>
                         <textarea name="user_message" id="msg" placeholder="Enter text here" required maxlength="500" aria-label="user_message"></textarea>
                     </li>
+                    <div id="form-validate"></div>
                 </ul> 
                 <button type="submit" class="see-project-form">See project</button>
             </form>
