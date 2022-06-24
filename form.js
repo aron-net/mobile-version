@@ -6,7 +6,7 @@ form.addEventListener('submit', (event) => {
   const errM = document.querySelector('#form-validate');
   if (myRegex.test(emailAddress) === true) {
     event.preventDefault();
-    const message = 'Please ensure that all email input is in <strong> Lower case </strong>';
+    const message = 'Please ensure that all email input is in  <strong> Lower case </strong>';
     errM.innerHTML = message;
   }
 });

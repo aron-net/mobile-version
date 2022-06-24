@@ -474,6 +474,12 @@ button:active {
   border: 2px solid #0d151e;
 }
 
+#form-validate {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 2%;
+}
+
 @media screen and (min-width: 768px) {
   /* header style */
   .main {
@@ -810,5 +816,9 @@ button:active {
     100% {
       color: red;
     }
+  }
+
+  #form-validate {
+    font-size: 20px;
   }
 }
