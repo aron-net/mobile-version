@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-        <link rel="stylesheet" href="./style.css" />
-        <script src="./script.js" defer></script>
-        <title>Aron Abraham Portfolio</title>
-    </head>
-    <body>
-        <header class="top-navigation">
-            <a href="#about" class="log">Aron Abraham</a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" >
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./modal.css" >
+
+    <script src="./script.js" defer></script>
+    <script src="./modal.js" defer></script>
+
+    <title>Aron Abraham Portfolio</title>
+</head>
+<body>
+    <div id="popupPage" class="modal-popup"></div>
+    <div class="main">
+        <header class="top-header">
+            <div class="log-div">
+                <a href="#portfolio" class="log">Aron Abraham</a>
+            </div>
             <nav class="item-navigation">
-                <div class="hamburger-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
                 <ul data-visible="false" class="frame-navigation">
-                    <li class="close-menu"><span class="material-symbols-outlined">close</span></li>                        
-                    <li class="item-frame-nav"><a href="#portfolio" class="nav">Portfolio</a><span class="material-symbols-outlined chevron-right">chevron_right</span></li>
-                    <li class="item-frame-nav"><a href="#about" class="nav">About</a><span class="material-symbols-outlined chevron-right chevron-right-about">chevron_right</span></li>
-                    <li class="item-frame-nav"><a href="#contact" class="nav">Contact</a><span class="material-symbols-outlined chevron-right">chevron_right</span></li>
-                    <li class="item-frame-nav"><a href="#email" class="link" aria-label="email envelope"><i class="fa fa-envelope-o"></i></a></li>
+                    <li class="item-frame-nav close-menu"><span
+                            class="material-symbols-outlined">close</span></li>
+                    <li class="item-frame-nav"><a href="#portfolio"
+                            class="nav">Portfolio</a><span
+                            class="material-symbols-outlined chevron-right">chevron_right</span></li>
+                    <li class="item-frame-nav"><a href="#about" class="nav">About</a><span
+                            class="material-symbols-outlined chevron-right
+                            chevron-right-about">chevron_right</span>
+                    </li>
+                    <li class="item-frame-nav"><a href="#contact"
+                            class="nav">Contact</a><span
+                            class="material-symbols-outlined chevron-right">chevron_right</span></li>
+                    <li class="item-frame-nav"><a href="#email" class="link"
+                            aria-label="email envelope"><i
+                                class="fa fa-envelope-o"></i></a></li>
                 </ul>
             </nav>
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </header>
-            <!-- Primary text headline-->
-        <div class="main">    
-            <section class="container-header">
-                <h1 class="header-text">Aron Abraham</h1>
-                <h2 class="support-text">Software Developer</h2>
-                <p class="text-container">I can help you build a product, feature or website 
-                    Look through some of my work and experience! if 
-                    you like what you see and have a project you need
-                    coded, don't hesitate to contact me.
-                </p>
-            </section>
-            <!-- Thematic break-->
+        <section class="container-header">
+            <h1 class="header-text">Aron Abraham</h1>
+            <h2 class="support-text">Software Developer</h2>
+            <p class="text-container">I can help you build a product,
+                feature or website
+                Look through some of my work and experience! if
+                you like what you see and have a project you need
+                coded, don't hesitate to contact me.
+            </p>
             <div class="thematic">
                 <hr>
             </div>
-            <!-- Experience-container -->
             <div class="experience-container">
                 <ul class="language-container">
                     <li class="language-experience">Language</li>
@@ -55,7 +68,7 @@
                     <li class="skill-language">Ruby</li>
                     <li class="skill-language">Html</li>
                     <li class="skill-language">Css</li>
-                </ul>                
+                </ul>
                 <ul class="frame-works-container">
                     <li class="language-experience">Frameworks</li>
                     <li class="skill-frame">Bootstrap</li>
@@ -71,7 +84,7 @@
                     <li class="skill-skills">Codepen</li>
                     <li class="skill-skills">Gitlab</li>
                     <li class="skill-skills">Terminal</li>
-                </ul>                
+                </ul>
             </div>
             <!-- Thematic break -->
             <div class="thematic">
@@ -82,166 +95,81 @@
             <div class="links">
                 <div class="button-display">
                     <h2 class="work">Work</h2>
-                    <span class="material-symbols-outlined" id="arrow-down-1">arrow_downward</span>
+                    <span class="material-symbols-outlined"
+                        id="arrow-down-1">arrow_downward</span>
                 </div>
                 <ul class="account-links">
-                    <li><a href="https://github.com/aron-helu" class="link-icon-a"><img src="./image/Vector.svg" alt="github-icon" class="link-icon"></a></li>
-                    <li><a href="https://www.linkedin.com/in/aron-abraham-90a4321b0/" ><img src="./image/Icon-Linkedin.svg" alt="Linkedin-github" class="link-icon"></a></li>
-                    <li><a href="#peace-hand-link"><img src="./image/Vector_hand.svg" alt="Peace-hand" class="link-icon"></a></li>
-                    <li><a href="https://twitter.com/AaronMilu"><img src="./image/Vector_Twit.svg" alt="Twitter-icon" class="link-icon"></a></li>
-                    <li><a href="#medea-link"><img src="./image/Vector_M.svg" alt="Medea" class="link-icon"></a></li>
+                    <li><a href="https://github.com/aron-helu"
+                            class="link-icon-a"><img
+                                src="./image/Link-icons/Vector.svg" alt="github-icon"
+                                class="link-icon"></a></li>
+                    <li><a
+                            href="https://www.linkedin.com/in/aron-abraham-90a4321b0/"><img
+                                src="./image/Link-icons/Icon-Linkedin.svg"
+                                alt="Linkedin-github" class="link-icon"></a></li>
+                    <li><a href="#peace-hand-link"><img
+                                src="./image/Link-icons/Vector_hand.svg"
+                                alt="Peace-hand" class="link-icon"></a></li>
+                    <li><a href="https://twitter.com/AaronMilu"><img
+                                src="./image/Link-icons/Vector_Twit.svg"
+                                alt="Twitter-icon" class="link-icon"></a></li>
+                    <li><a href="#medea-link"><img
+                                src="./image/Link-icons/Vector_M.svg" alt="Medea"
+                                class="link-icon"></a></li>
                 </ul>
                 <div class="button">
                     <span class="material-symbols-outlined" id="arrow-down">arrow_downward</span>
                     <h2 class="work">Work</h2>
                 </div>
             </div>
-        </div>
-        <!-- Recent work -->
-        
-        <div class="recent-work" id="portfolio">
             <h2 class="my-work">My recent work</h2>
             <div class="thematic-1">
                 <hr class="thematic-work">
             </div>
-            <div class="multi-post-grid">
-                <div class="multi-post">
-                    <div class="image-placeholder">
-                        <img class="image-plc" src="./image/ImgPlaceholder.png" alt="">
-                    </div>
-                    <div class="flex-container">
-                        <h3 class="multi-post-header">Multi-Post Stories</h3>
-                        <p class="multi-post-paragraph">A daily section of privately personalized reads; no accounts
-                            or sign-ups required. has been the industry&#x27;s standard
-                            dummy text ever since the 1500s, when an unknown printer took a 
-                            standard dummy text.
-                        </p>
-
-                        <ul class="icon">
-                            <li class="image-icons"><img src="./image/css.svg" alt="css-icon"></li>
-                            <li class="arrow-icon-post"><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/html.svg" alt="html-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/bootstrap.svg" alt="bootstrap-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/Ruby.svg" alt="ruby-icon"></li>
-                        </ul>
-                        <button type="button" class="see-project">See Project</button>
-                    </div>
-                </div>
-                <div class="multi-post">
-                    <div class="image-placeholder">
-                        <img class="image-plc" src="./image/ImgPlaceholder.png" alt="">
-                    </div>
-                    <div class="flex-container flex-container-grid-2">
-                        <h3 class="multi-post-header">Multi-Post Stories</h3>
-                        <p class="multi-post-paragraph">A daily section of privately personalized reads; no accounts
-                            or sign-ups required. has been the industry&#x27;s standard
-                            dummy text ever since the 1500s, when an unknown printer took a 
-                            standard dummy text.
-                        </p>
-
-                        <ul class="icon">
-                            <li><img src="./image/css.svg" alt="css-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/html.svg" alt="html-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/bootstrap.svg" alt="bootstrap-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/Ruby.svg" alt="ruby-icon"></li>
-                        </ul>
-                        <button type="button" class="see-project">See Project</button>
-                    </div>
-                </div>
-                <div class="multi-post">
-                    <div class="image-placeholder">
-                        <img class="image-plc" src="./image/ImgPlaceholder.png" alt="">
-                    </div>
-                    <div class="flex-container ">
-                        <h3 class="multi-post-header">Multi-Post Stories</h3>
-                        <p class="multi-post-paragraph">A daily section of privately personalized reads; no accounts
-                            or sign-ups required. has been the industry&#x27;s standard
-                            dummy text ever since the 1500s, when an unknown printer took a 
-                            standard dummy text.
-                        </p>
-
-                        <ul class="icon">
-                            <li><img src="./image/css.svg" alt="css-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/html.svg" alt="html-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/bootstrap.svg" alt="bootstrap-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/Ruby.svg" alt="ruby-icon"></li>
-                        </ul>
-                        <button type="button" class="see-project">See Project</button>
-                    </div>
-                </div>
-                <div class="multi-post">
-                    <div class="image-placeholder">
-                        <img class="image-plc" src="./image/ImgPlaceholder.png" alt="">
-                    </div>
-                    <div class="flex-container flex-container-grid-2">
-                        <h3 class="multi-post-header">Multi-Post Stories</h3>
-                        <p class="multi-post-paragraph">A daily section of privately personalized reads; no accounts
-                            or sign-ups required. has been the industry&#x27;s standard
-                            dummy text ever since the 1500s, when an unknown printer took a 
-                            standard dummy text.
-                        </p>
-
-                        <ul class="icon">
-                            <li><img src="./image/css.svg" alt="css-icon" class="image-icons"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/html.svg" alt="html-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/bootstrap.svg" alt="bootstrap-icon"></li>
-                            <li><img src="./image/Vector-5.svg" alt="arrow-icon"></li>
-                            <li><img src="./image/Ruby.svg" alt="ruby-icon"></li>
-                        </ul>
-                        <button type="button" class="see-project">See Project</button>
-                    </div>
-                </div>
+        </section>
+    </div>
+    <section class="recent-work" id="portfolio">
+        <div id="multi-post-grid" class="multi-post-grid"></div>
+        <footer id="contact">
+            <div class="mobile-version">
+                <h2 class="form-header">CONTACT US</h2>
             </div>
-            <footer id="contact">
-                <div class="mobile-version">
-                    <h2 class="form-header">CONTACT US</h2>
-                </div>
-                <div class="desktop-version">
-                    <h2 class="form-header">Let's chat!</h2>
-                </div>
-                <P class="form-paragraph">If you have an application you are interested
-                    in developing, a feature that you need built or
-                    a project that needs coding. I&#x27;d love to help with it.
-                </P>
-                <form action="https://formspree.io/f/xjvlzgoa" method="post">                
-                    <ul class="input-form">
-                        <li>
-                            <input type="text" name="user_name" id="name" minlength="2" maxlength="30" required placeholder="Text Input" class="name-form" aria-label="user-name">
-                        </li>
-                        <li>
-                            <input type="email" name="user_email" id="email" placeholder="jeremy@gmail.com" required class="email-form" aria-label="user_name">
-                        </li>
-                        <li>
-                            <textarea name="user_message" id="msg" placeholder="Enter text here" required maxlength="500" aria-label="user_message"></textarea>
-                        </li>
-                    </ul> 
-                    <button type="submit" class="see-project-form">See project</button>
-                </form>
-                <div>
-                    <hr class="footer-line">
-                </div>
-                <div class="footer-icons">
-                    <ul class="footer-account-links">
-                        <li><a href="https://github.com/aron-helu" class="link-footer"><img src="./image/Vector.svg" alt="github-icon"></a></li>
-                        <li><a href="https://www.linkedin.com/in/aron-abraham-90a4321b0/" class="link-footer"><img src="./image/Icon-Linkedin.svg" alt="Linkedin-icon"></a></li>
-                        <li><a href="#peace-hand-link" class="link-footer"><img src="./image/Vector_hand.svg" alt="Peace-hand-icon"></a></li>
-                        <li><a href="https://twitter.com/AaronMilu" class="link-footer"><img src="./image/Vector_Twit.svg" alt="Twitter-icon"></a></li>
-                        <li><a href="#Medea-link" class="link-footer"><img src="./image/Vector_M.svg" alt="Medea-icon"> </a></li>
-                    </ul>
-                    <h3 class="footer-email"><a href="mailto:aronmilahela@gmail.com"> aronmilahela@gmail.com</a></h3>
-                    <div class="footer-hr"></div>
-                </div>        
-            </footer>
-        </div>
-    </body>
+            <div class="desktop-version">
+                <h2 class="form-header">Let's chat!</h2>
+            </div>
+            <P class="form-paragraph">If you have an application you are interested
+                in developing, a feature that you need built or
+                a project that needs coding. I&#x27;d love to help with it.
+            </P>
+            <form action="https://formspree.io/f/xjvlzgoa" method="post">                
+                <ul class="input-form">
+                    <li>
+                        <input type="text" name="user_name" id="name" minlength="2" maxlength="30" required placeholder="Text Input" class="name-form" aria-label="user-name">
+                    </li>
+                    <li>
+                        <input type="email" name="user_email" id="email" placeholder="jeremy@gmail.com" required class="email-form" aria-label="user_name">
+                    </li>
+                    <li>
+                        <textarea name="user_message" id="msg" placeholder="Enter text here" required maxlength="500" aria-label="user_message"></textarea>
+                    </li>
+                </ul> 
+                <button type="submit" class="see-project-form">See project</button>
+            </form>
+            <div>
+                <hr class="footer-line">
+            </div>
+            <div class="footer-icons">
+                <ul class="footer-account-links">
+                    <li><a href="https://github.com/aron-helu" class="link-footer"><img src="./image/Link-icons/Vector.svg" alt="github-icon"></a></li>
+                    <li><a href="https://www.linkedin.com/in/aron-abraham-90a4321b0/" class="link-footer"><img src="./image/Link-icons/Icon-Linkedin.svg" alt="Linkedin-icon"></a></li>
+                    <li><a href="#peace-hand-link" class="link-footer"><img src="./image/Link-icons/Vector_hand.svg" alt="Peace-hand-icon"></a></li>
+                    <li><a href="https://twitter.com/AaronMilu" class="link-footer"><img src="./image/Link-icons/Vector_Twit.svg" alt="Twitter-icon"></a></li>
+                    <li><a href="#Medea-link" class="link-footer"><img src="./image/Link-icons//Vector_M.svg" alt="Medea-icon"> </a></li>
+                </ul>
+                <h3 class="footer-email"><a href="mailto:aronmilahela@gmail.com"> aronmilahela@gmail.com</a></h3>
+                <div class="footer-hr"></div>
+            </div>        
+        </footer>
+    </section>
+</body>
 </html>

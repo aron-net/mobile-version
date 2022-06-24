@@ -1,0 +1,259 @@
+.modal-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #191765;
+  background-image: url('./image/Background-image/top-circles.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.modal-popup::-webkit-scrollbar {
+  display: none;
+}
+
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.popup-container {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  width: 86%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.16);
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px rgba(37, 47 137, 0.08);
+}
+
+.popup-container::-webkit-scrollbar {
+  display: none;
+}
+
+.ar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 85%;
+  gap: 8px;
+  height: fit-content;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-left: 2%;
+  margin-top: 2%;
+}
+
+.close-popup-img {
+  color: #fff;
+  display: block;
+  width: 8%;
+  float: right;
+  padding-top: 5px;
+  padding-right: 3%;
+  cursor: pointer;
+}
+
+.popup-Desktop {
+  display: none;
+}
+
+.popup-content {
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+}
+
+.popup-text {
+  display: block;
+  width: 96%;
+}
+
+.popup-skill-container {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  width: 98%;
+  height: 3vh;
+  margin-top: 3%;
+}
+
+.popup-list {
+  border-right: 2px solid #808080;
+  padding: 2px 1px 3px 5px;
+}
+
+.popup-skill-container > li:first-child {
+  border-left: 2px solid #808080;
+  padding: 2px 1px 3px 5px;
+}
+
+.github-icon {
+  display: none;
+}
+
+.button-frames {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-popup-1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  background: #7d73fc;
+  background-image: url('./image/Link-icons/live-Icon.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right 10px bottom 15px;
+  padding: 3%;
+  margin-top: 10%;
+  width: 45%;
+}
+
+.button-popup-2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  background: #7d73fc;
+  background-image: url('./image/Link-icons/github-icon.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right 10px bottom 15px;
+  padding: 3%;
+  width: 45%;
+  margin-bottom: 5%;
+}
+
+.popupImg {
+  width: 95%;
+}
+
+.popup-text-Desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-popup {
+    background-image: url('./image/Background-image/two-circles-header.png');
+    background-size: contain;
+    align-content: center;
+    background-position: 10% 20%;
+  }
+
+  .popup-container {
+    width: 95%;
+    padding: 5px;
+    margin: 20px;
+  }
+
+  .ar {
+    width: 99%;
+    padding: 0;
+    margin: 0%;
+  }
+
+  .title {
+    margin-top: 2%;
+    padding-left: 5%;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .popupImg {
+    width: 95%;
+  }
+
+  .popup-Desktop {
+    display: block;
+    height: 53vh;
+  }
+
+  .popup-content {
+    width: 75%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    margin-top: 2%;
+  }
+
+  .popup-text-Desktop {
+    display: block;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .popup-text {
+    display: none;
+  }
+
+  .popup-skill-container {
+    width: 65%;
+    margin-top: 2%;
+  }
+
+  .github-icon {
+    display: block;
+  }
+
+  .button-frames {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    width: 55%;
+    margin-top: 2%;
+    gap: 50px;
+  }
+
+  .button-popup-1 {
+    margin-top: -1%;
+  }
+
+  .button-popup-2 {
+    margin-top: 4%;
+  }
+}
