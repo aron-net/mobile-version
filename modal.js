@@ -64,6 +64,7 @@ const popupResentWork = [
     pageDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
     pageDescriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.',
     skills: ['html', 'Ruby on rails', 'css', 'Github'],
+    links: ['https://github.com/aron-helu', 'https://aron-helu.github.io/mobile-version'],
   },
 ];
 
@@ -88,8 +89,8 @@ const loadPopUp = (id) => {
                     <li class="github-icon popup-list">${popupResentWork[id].skills[3]}</li>
                 </ul>
                 <div class="button-frames">
-                    <button class="button-popup-1">See Live</button>
-                    <button class="button-popup-2">See Source</button>
+                    <a href="${popupResentWork[id].links[1]}" class="button-popup-1">See Live</a>
+                    <a href="${popupResentWork[id].links[0]}" class="button-popup-2">See Source</a>
                 </div>
             </div>
         </div>
