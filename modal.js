@@ -50,7 +50,7 @@ const loadRecentWork = () => {
             <button type="button" class="see-project">See Project</button>
         </div>
         </div>`;
-    cardRecentWork += card;
+    cardRecentWork = card;
   }
   recentWorkContainer.innerHTML = cardRecentWork;
 };
